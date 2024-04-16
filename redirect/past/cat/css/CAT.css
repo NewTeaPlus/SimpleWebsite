@@ -10,21 +10,26 @@ a {
     font-size: 72px;
 }
 header, footer, main, div {
-    color:#ffffff;
     background-color: #F7D9BD;
     border: #896350 solid 3px;
     border-radius: 50px;
     border-spacing: 5in;
+    color:#ffffff;
     margin: 0 auto;
+    margin-bottom: 10px;
     max-width: 720px;
     text-shadow: #A76F52;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #A76F52;
     background-image: url("https://digwallpapers.com/wallpapers/middle-retina/7/6/2/90222-3840x2160-pusheen-wallpaper-photo-desktop-4k.jpg");
-    background-size:cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 img {
@@ -53,4 +58,9 @@ img:hover {
     max-width: 95%;
     border: 5px solid #FFB8C2;
     border-radius: 50px;
+}
+
+#lifelog {
+    font-family: sans-serif;
+    font-size: 28px;
 }
