@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@font-face {font-family: CatFont ;src: url(../font/Cattie-Regular.ttf);}
+
+* {
+    text-align: center;
+}
+
+a {
+    color:brown;
+    font-size: 72px;
+}
+header, footer, main, div {
+    color:#ffffff;
+    background-color: #F7D9BD;
+    border: #896350 solid 3px;
+    border-radius: 50px;
+    border-spacing: 5in;
+    margin: 0 auto;
+    max-width: 720px;
+    text-shadow: #A76F52;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://digwallpapers.com/wallpapers/middle-retina/7/6/2/90222-3840x2160-pusheen-wallpaper-photo-desktop-4k.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 5px solid #A76F52;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.cat {
+    font-family: CatFont;
+    color: #57504a;
+    letter-spacing: 5px;
+    font-size: 48px;
+}
+
+figure {
+    display: block;
+    margin: auto;
+    font-family: 'CatFont';
+    max-width: 100%;
+}
+
+img:hover {
+    max-width: 95%;
+    border: 5px solid #FFB8C2;
+    border-radius: 50px;
+}
