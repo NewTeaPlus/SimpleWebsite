@@ -23,7 +23,7 @@ function life(){
         <br> You lose 9,999,999 HP </br>
         <br> HP: ${hp}/5000 </br>`
     }else{
-    alert(`You faintedCat Drags you back to main page`)
+    alert(`You fainted, Cat Drags you back to main page`)
     //add a url to go back to
     window.location.href="../../../index.html"
     }
