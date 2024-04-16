@@ -7,16 +7,20 @@ cat.addEventListener("click", life)
 
 function life(){
     if(hp >= 4000){
+        let swipe = new Audio("../audio/Swipe.mp3")
+        swipe.play()
         hp -= 250
         lifelog.innerHTML=`CAT SWIPES LIGHTLY!
         <br> You lose 250 HP </br>
         <br> HP: ${hp}/5000 </br>`
     } else if (hp >= 1000) {
+        let swipe = new Audio()
         hp -= 1250
         lifelog.innerHTML=`CAT SWIPES!
         <br> You lose 1250 HP </br>
         <br> HP: ${hp}/5000 </br>`
     }else if(hp >= 0 ){
+        let swipe = new Audio()
         hp -= 9999999
         lifelog.innerHTML=`CAT SWIPES WITH A MIGHTY SWIPE!
         <br>CRITICAL HIT!!!!</br>
