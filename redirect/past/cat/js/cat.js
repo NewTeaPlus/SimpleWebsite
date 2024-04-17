@@ -23,11 +23,11 @@ function life(){
     }else if(hp >= 0 ){
         var swipe = new Audio("audio/HeavyFastSwipe.mp3");
         swipe.play();
-        hp -= 1000199
+        hp -= 10000199
         lifelog.innerHTML=`Cat: BRRRAWRRR!!!
         <br>CAT SWIPES WITH A MIGHTY SWIPE!</br>
         <br>CRITICAL HIT!!!!</br>
-        <br> You lose 1,000,199 HP </br>
+        <br> You lose 10,000,199 HP </br>
         <br> HP: ${hp}/5000 </br>`
     }else{
     alert(`You fainted, Cat Drags you back to main page`);
